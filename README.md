@@ -324,24 +324,12 @@ await IndustrySpecificExamples.HealthcareExampleAsync();
 await EnterpriseIntegrationExamples.IoTDataAnalysisAsync();
 ```
 
-See the [Examples](MCPnet.Client/Examples/) directory for more detailed usage examples.
-
 ## Repository
 
 The source code for MCPnet is available on GitHub:
 [https://github.com/adhammehdawi/MCPnet](https://github.com/adhammehdawi/MCPnet)
 
-## Author
-
-**Adham Mehdawi**
-mehdawiadham@gmail.com
-
-## Support
-
-If you find this library useful, consider buying me a coffee:
-
-[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/adhammehdawi)
-
+ 
 ## License
 
 MIT
