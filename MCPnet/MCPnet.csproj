@@ -17,11 +17,6 @@
     <RepositoryUrl>https://github.com/AdhamMehdawi/MCPnet.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    
-    <!-- Make this a metapackage -->
-    <IncludeBuildOutput>false</IncludeBuildOutput>
-    <IncludeSymbols>false</IncludeSymbols>
-    <IncludeSource>false</IncludeSource>
   </PropertyGroup>
 
   <ItemGroup>
