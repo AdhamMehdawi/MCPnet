@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- NuGet package properties -->
+    <PackageId>MCPnet.Core</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>MCPnet</Authors>
+    <Company>MCPnet</Company>
+    <Description>Core models and interfaces for the MCPnet library, a centralized network for MCP (Multimodal Capability Protocol) servers.</Description>
+    <PackageTags>mcp;ai;multimodal;capability;protocol;network</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://mcp.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mcpnet/mcpnet-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <PackageReference Include="System.Text.Json" Version="9.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPnet.Core", "MCPnet.Core\MCPnet.Core.csproj", "{76EA64A6-3CB6-4530-8979-4856CE3742B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPnet.Client", "MCPnet.Client\MCPnet.Client.csproj", "{8469E88C-8D09-408F-991F-07E8041ADAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPnet", "MCPnet\MCPnet.csproj", "{7EE06089-FA8F-446B-B27F-E6404323F955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPnet.Tests", "MCPnet.Tests\MCPnet.Tests.csproj", "{6940E876-1548-42B5-A397-BF0C20AE968A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76EA64A6-3CB6-4530-8979-4856CE3742B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EA64A6-3CB6-4530-8979-4856CE3742B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EA64A6-3CB6-4530-8979-4856CE3742B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EA64A6-3CB6-4530-8979-4856CE3742B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8469E88C-8D09-408F-991F-07E8041ADAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8469E88C-8D09-408F-991F-07E8041ADAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8469E88C-8D09-408F-991F-07E8041ADAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8469E88C-8D09-408F-991F-07E8041ADAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE06089-FA8F-446B-B27F-E6404323F955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE06089-FA8F-446B-B27F-E6404323F955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE06089-FA8F-446B-B27F-E6404323F955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE06089-FA8F-446B-B27F-E6404323F955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6940E876-1548-42B5-A397-BF0C20AE968A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6940E876-1548-42B5-A397-BF0C20AE968A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6940E876-1548-42B5-A397-BF0C20AE968A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6940E876-1548-42B5-A397-BF0C20AE968A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- NuGet package properties -->
+    <PackageId>MCPnet</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>MCPnet</Authors>
+    <Company>MCPnet</Company>
+    <Description>A comprehensive client library for MCPnet, a centralized network for MCP (Multimodal Capability Protocol) servers.</Description>
+    <PackageTags>mcp;ai;multimodal;capability;protocol;network;client</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://mcp.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mcpnet/mcpnet-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    
+    <!-- Make this a metapackage -->
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <IncludeSymbols>false</IncludeSymbols>
+    <IncludeSource>false</IncludeSource>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <ProjectReference Include="..\MCPnet.Core\MCPnet.Core.csproj" />
+    <ProjectReference Include="..\MCPnet.Client\MCPnet.Client.csproj" />
+  </ItemGroup>
+
+</Project> 
