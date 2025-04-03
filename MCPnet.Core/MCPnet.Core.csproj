@@ -7,7 +7,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     
     <!-- NuGet package properties -->
-    <PackageId>AdhamMehdawi.MCPnet.Core</PackageId>
+    <PackageId>adham.mehdawi.MCPnet.Core</PackageId>
     <Version>1.0.0</Version>
     <Authors>Adham Mehdawi</Authors>
     <Company>Adham Mehdawi</Company>

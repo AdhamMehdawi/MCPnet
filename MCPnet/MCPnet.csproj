@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     
     <!-- NuGet package properties -->
-    <PackageId>AdhamMehdawi.MCPnet</PackageId>
+    <PackageId>adham.mehdawi.MCPnet</PackageId>
     <Version>1.0.0</Version>
     <Authors>Adham Mehdawi</Authors>
     <Company>Adham Mehdawi</Company>
