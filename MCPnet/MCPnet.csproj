@@ -2,19 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>disable</ImplicitUsings>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     
     <!-- NuGet package properties -->
-    <PackageId>MCPnet</PackageId>
-    <Version>0.1.0</Version>
-    <Authors>MCPnet</Authors>
-    <Company>MCPnet</Company>
-    <Description>A comprehensive client library for MCPnet, a centralized network for MCP (Multimodal Capability Protocol) servers.</Description>
-    <PackageTags>mcp;ai;multimodal;capability;protocol;network;client</PackageTags>
+    <PackageId>AdhamMehdawi.MCPnet</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Adham Mehdawi</Authors>
+    <Company>Adham Mehdawi</Company>
+    <Description>MCPnet is a .NET client library for connecting with Multimodal Capability Protocol (MCP) servers through a centralized network</Description>
+    <PackageTags>mcp;ai;multimodal;capability;protocol;network</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://mcp.net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mcpnet/mcpnet-dotnet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/AdhamMehdawi/MCPnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AdhamMehdawi/MCPnet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     
     <!-- Make this a metapackage -->
@@ -24,7 +25,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MCPnet.Core\MCPnet.Core.csproj" />
     <ProjectReference Include="..\MCPnet.Client\MCPnet.Client.csproj" />
   </ItemGroup>
